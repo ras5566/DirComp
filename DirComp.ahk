@@ -2,7 +2,7 @@
 #SingleInstance, force
 SetBatchLines, -1
 FileEncoding , CP65001
-Menu Tray, Icon, E:\13PF\XY\Data\Icons\608.ico
+Menu Tray, Icon, cons\608.ico
 SetWorkingDir %A_ScriptDir%
 dirLL=E:\06GAME
 ; dirR=\\SAMSUNG\E\24YouTube
@@ -35,13 +35,13 @@ Gui Add, ComboBox,x+8  y2 w80  r8 hwndCB1 vCB1, *||
 Gui Add, Button,  x+17 y2 w60  h20 , Unique
 Gui Add, Button,  x+5  y2 w60  h20 , Unequal
 Gui Add, Button,  x+5  y2 w60  h20 , Equal
-Gui Add, Picture, x+11 y2 w20  h20 hwndst3Btn gst3Btn ,E:\13PF\XY\Data\Icons\sublime_text.ico
+Gui Add, Picture, x+11 y2 w20  h20 hwndst3Btn gst3Btn ,icons\sublime_text.ico
 
 Gui Add, Edit,    x790  y2 w220 h20 hwnddirR vdirR ReadOnly ,E:\05VIDEO
 ; Gui Add, ComboBox,x690 y2 w220 r8 vdirR ,E:\05VIDEO||\\INTEL\ssE\24YouTube|E:\24YouTube|
 Gui Add, Button,  x+4   y2 w30 h20 hwndDest gDestination, >>
 
-Gui Add, Picture ,x5   y24 w20 h20 gUnchckall, E:\13PF\XY\Data\Icons\unchecked.png
+Gui Add, Picture ,x5   y24 w20 h20 gUnchckall, icons\unchecked.png
 Gui Add, Picture ,x+5  y24 w22 h20 gArrow_left , icons\arrow_right_15600.png
 Gui Add, Edit,    x+5  y24 w40 vSearchTermL gSearchL ,vt
 Gui Add, CheckBox,x+25 y24 w60 h20 vCBsubDirL, SubDirL
